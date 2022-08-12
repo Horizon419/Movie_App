@@ -6,6 +6,9 @@
     justify-content: center;
     text-transform: uppercase;
     background-color: orange;
+    background: rgb(255,192,0);
+    background: linear-gradient(180deg, rgba(255,192,0,0.6446953781512605) 7%, rgba(255,205,0,0.6054796918767507) 41%, rgba(255,255,255,0.3897934173669467) 100%);
+    
     font-family: "Montserrat", sans-serif;
     font-size: 3vw;
     padding-bottom: 15px;
@@ -13,6 +16,12 @@
     color: white;
     z-index: 100;
 }
+
+
+.header>img{
+    width: 70px;
+}
+
 
 @media (max-width:1000px) {
     .header{

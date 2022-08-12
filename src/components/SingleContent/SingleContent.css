@@ -5,6 +5,8 @@
     padding: 5px;
     margin: 5px 0;
     background-color: #282c34;
+    background: rgb(41,41,41);
+background: linear-gradient(0deg, rgba(41,41,41,0.5662640056022409) 7%, rgba(124,115,114,0.4654236694677871) 70%, rgba(255,255,255,1) 100%);
     border-radius: 10px;
     position: relative;
     font-family: "Montserrat", sans-serif;
@@ -13,6 +15,7 @@
   .media:hover {
     background-color: white;
     color: black;
+    font-weight: bold;
   }
   
   @media (max-width: 550px) {

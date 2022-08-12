@@ -3,8 +3,8 @@
 }
 
 .app {
-min-height: 100vh;
-background-color: grey;
+min-height: 100vh; 
+background: linear-gradient(0deg, rgba(72,159,237,1) 32%, rgba(253,187,45,1) 100%);
 color: white;
 padding-top: 130px;
 padding-bottom: 70px;
@@ -16,6 +16,7 @@ padding-bottom: 70px;
     }
 }
 
+
 .pageTitle {
     text-transform: uppercase;
     display: flex;
@@ -25,6 +26,7 @@ padding-bottom: 70px;
     padding: 4px;
     border-radius: 50px;
     color: white;
+    font-weight: bold;
   }
   
   @media (max-width: 1000px) {
